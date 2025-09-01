@@ -1,4 +1,5 @@
-name = "dmarc-email-worker"
+# wrangler.toml
+name = 'dmarc-analyzer'
 main = "src/index.ts"
 compatibility_date = "2023-03-16"
 
