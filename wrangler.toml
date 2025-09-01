@@ -3,7 +3,6 @@ name = 'dmarc-analyzer'
 main = "src/index.ts"
 compatibility_date = "2023-03-16"
 
-
 [[r2_buckets]]
 binding = "R2_BUCKET"
 bucket_name = "dmarc-reports-open"         # Set this to your R2 bucket name. Required
