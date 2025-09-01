@@ -172,7 +172,7 @@ async function sendToAnalyticsEngine(env: Env, reportRows: DmarcRecordRow[]) {
     doubles.push(recordRow.recordRowPolicyEvaluatedReasonType)
     blobs.push(recordRow.recordIdentifiersEnvelopeTo)
     blobs.push(recordRow.recordIdentifiersHeaderFrom)
-
+    
     env.DMARC_ANALYTICS.writeDataPoint({
       blobs: blobs,
       doubles: doubles,
